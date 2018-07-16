@@ -21,4 +21,10 @@
     <color name="btn6Start">#C33764</color>
     <color name="btn6End">#1D2671</color>
     <color name="splashLabel">#cc424242</color>
+
+    <array name="tab_colors">
+        <item name="tab_1">#455C65</item>
+        <item name="tab_2">#00886A</item>
+        <item name="tab_3">#8B6B62</item>
+    </array>
 </resources>
