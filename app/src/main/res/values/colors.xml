@@ -20,4 +20,5 @@
     <color name="btn5End">#ff5e62</color>
     <color name="btn6Start">#C33764</color>
     <color name="btn6End">#1D2671</color>
+    <color name="splashLabel">#cc424242</color>
 </resources>
