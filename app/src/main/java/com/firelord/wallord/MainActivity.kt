@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         // Use colored navigation with circle reveal effect
         bottom_navigation.setColored(true);
 
-        bottom_navigation.setOnTabSelectedListener({ position, wasSelected ->
+        bottom_navigation.setOnTabSelectedListener { position, wasSelected ->
             when(position){
                 0 -> fragment = HomeFragment()
                 1 -> fragment = AllPhotosFragment()
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
 
             gotoFragment(fragment)
             true
-        })
+        }
 
         if (savedInstanceState == null) {
 
